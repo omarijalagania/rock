@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Main */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ecf0f1;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Rows and Containers */
+
+.main-container {
+    border: 1px solid #fff;
+    padding: 30px 50px;
+    background-color: #2980b9;
+    border-radius: 10px;
+}
+.row {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.row2 {
+    position: relative;
+    width: 600px;
+}
+
+.raw3 {
+    text-align: center;
+}
+
+.playing-cont {
+    text-align: center;
+    display: none;
+}
+
+/* Counters */
+
+.player {
+    position: absolute;
+    right:30px;
+    margin-top: 10px;
+}
+.machine {
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+
+.btn-play {
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 80px;
+    border: 0;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.reset {
+    position: absolute;
+    right: -5px;
+    background: transparent;
+    text-transform: uppercase;
+    color: rgb(0, 255, 55);
+}
+
+.night-mode {
+    padding: 5px;
+    border: 0;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 600px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* Headings */
+
+h2 {
+    margin-bottom: 20px;
+}
+
